@@ -1,0 +1,8 @@
+*.docx binary
+*.pdf binary
+*.png binary
+*.zip binary
+*.keras binary
+*.npz binary
+*.ipynb linguist-language=Jupyter Notebook
+data/manifests/*.csv linguist-generated=true
