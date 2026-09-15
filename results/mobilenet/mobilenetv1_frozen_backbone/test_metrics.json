@@ -1,0 +1,14 @@
+{
+  "model": "mobilenetv1",
+  "split": "test",
+  "samples": 2691,
+  "loss": 0.23220515251159668,
+  "accuracy": 0.9379412857673727,
+  "macro_precision": 0.8598303685430888,
+  "macro_recall": 0.8521236848042542,
+  "macro_f1": 0.8459357222830691,
+  "top2_accuracy": 0.9747305834262356,
+  "total_parameters": 4243795,
+  "seed": 12345,
+  "checkpoint_file": "best_frozen_model.keras"
+}

@@ -1,0 +1,14 @@
+{
+  "model": "efficientnetb2",
+  "split": "test",
+  "samples": 2691,
+  "loss": 0.23704546689987183,
+  "accuracy": 0.9271646228167967,
+  "macro_precision": 0.8231931378646883,
+  "macro_recall": 0.7723640019170455,
+  "macro_f1": 0.7829491880263154,
+  "top2_accuracy": 0.9695280564845782,
+  "total_parameters": 8425836,
+  "seed": 12345,
+  "checkpoint_file": "best_frozen_model.keras"
+}
