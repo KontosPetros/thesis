@@ -1,0 +1,49 @@
+{
+  "run_name": "custom_cnn_clean_split_lanczos_oversampling_to100_seed12345",
+  "model": "Custom CNN",
+  "training_type": "from scratch",
+  "seed": 12345,
+  "image_size": [
+    128,
+    128
+  ],
+  "batch_size": 32,
+  "classes": 35,
+  "train_samples": 13012,
+  "train_samples_original": 12558,
+  "train_samples_after_oversampling": 13012,
+  "validation_samples": 2691,
+  "test_samples": 2691,
+  "learning_rate": 0.0001,
+  "maximum_epochs": 200,
+  "early_stopping_patience": 30,
+  "checkpoint_monitor": "val_loss",
+  "loss": "categorical_crossentropy",
+  "sampling": "random_oversampling",
+  "interpolation": "lanczos",
+  "oversampling": {
+    "selection_rule": "original_train_count < 50",
+    "rare_class_threshold": 50,
+    "target_count_per_rare_class": 100,
+    "sampling_with_replacement": true,
+    "rare_classes": [
+      "chaoborus",
+      "copepod_skins",
+      "daphnia_skins",
+      "diatom_chain",
+      "hydra",
+      "unknown_plankton"
+    ],
+    "added_training_rows": 454,
+    "validation_unchanged": true,
+    "test_unchanged": true
+  },
+  "class_weights": null,
+  "augmentation": {
+    "rotation_range": 180,
+    "horizontal_flip": true,
+    "vertical_flip": true,
+    "zoom_range": 0.2,
+    "shear_range": 10
+  }
+}

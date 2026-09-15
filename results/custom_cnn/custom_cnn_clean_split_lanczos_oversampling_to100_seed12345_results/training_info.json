@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 200,
+  "best_epoch": 194,
+  "best_validation_loss": 0.26534759998321533,
+  "training_seconds": 16737.55625319481,
+  "training_hours": 4.649321181443002
+}

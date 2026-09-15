@@ -1,0 +1,7 @@
+{
+  "test_generator_created_after_checkpoint_selection": true,
+  "test_pixel_prediction_passes": 1,
+  "test_time_augmentation": false,
+  "test_results_used_for_model_selection": false,
+  "evaluated_checkpoint": "/kaggle/working/convnextbase_zoolake_final_public_aug_correct_split_seed12345/best_finetuned_model.keras"
+}

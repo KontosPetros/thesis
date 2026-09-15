@@ -1,0 +1,10 @@
+{
+  "stage": "full_finetune",
+  "backbone": "convnext_base",
+  "frozen_nested_layers_before_unfreeze": 263,
+  "frozen_nested_layers_after_unfreeze": 0,
+  "model_parameters": 88111267,
+  "trainable_parameters": 88111267,
+  "non_trainable_parameters": 0,
+  "note": "Normalization layer statistics can remain non-trainable weights even when every layer has trainable=True."
+}

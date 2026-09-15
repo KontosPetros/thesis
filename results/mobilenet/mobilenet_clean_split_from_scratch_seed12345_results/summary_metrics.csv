@@ -1,0 +1,2 @@
+run_name,best_epoch,loss,accuracy,macro_precision,macro_recall,macro_f1,top2_accuracy
+mobilenet_clean_split_from_scratch_seed12345,120,0.2131960093975067,0.9401709401709402,0.7865323074622439,0.8026086254794528,0.7800004083848292,0.9791898922333705

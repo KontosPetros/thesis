@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.8171683549880981,
+  "macro_precision": 0.6396783883113997,
+  "macro_recall": 0.562333803186468,
+  "macro_f1": 0.5826054309840625,
+  "top2_accuracy": 0.9067261219024658,
+  "test_loss": 0.6016055941581726,
+  "best_finetune_epoch": 400,
+  "training_hours": 8.290267508625984,
+  "total_parameters": 8425836
+}

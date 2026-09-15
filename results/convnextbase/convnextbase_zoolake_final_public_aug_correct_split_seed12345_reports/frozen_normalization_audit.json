@@ -1,0 +1,11 @@
+{
+  "stage": "frozen",
+  "backbone": "convnext_base",
+  "batch_normalization_layers": 0,
+  "layer_normalization_layers": 41,
+  "input_normalization_layers": 1,
+  "backbone_trainable": false,
+  "model_parameters": 88111267,
+  "trainable_parameters": 544803,
+  "non_trainable_parameters": 87566464
+}

@@ -1,0 +1,17 @@
+{
+  "run_name": "convnextbase_zoolake_final_public_aug_correct_split_seed12345",
+  "stage": "full_finetune",
+  "split": "test",
+  "samples": 2691,
+  "loss": 0.13343116641044617,
+  "accuracy": 0.9654403567447045,
+  "macro_precision": 0.929960988952603,
+  "macro_recall": 0.902408691614323,
+  "macro_f1": 0.9114783608347855,
+  "macro_f1_no_junk": 0.9486586660879959,
+  "macro_f1_ge200": 0.9590832911537766,
+  "macro_f1_ge200_no_junk": 0.9735870771153118,
+  "top2_accuracy": 0.9899665551839465,
+  "seed": 12345,
+  "manifest_sha256": "84ca050319a314f1fbf532f553c1a557763b73a09b2e0f0692d2d6c8182706ad"
+}

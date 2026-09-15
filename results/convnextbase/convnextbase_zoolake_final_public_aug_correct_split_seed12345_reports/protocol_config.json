@@ -1,0 +1,48 @@
+{
+  "run_name": "convnextbase_zoolake_final_public_aug_correct_split_seed12345",
+  "architecture": "ConvNeXtBase",
+  "input_size": [
+    128,
+    128
+  ],
+  "batch_size": 32,
+  "seed": 12345,
+  "sampling": "natural",
+  "class_weights": null,
+  "loss": "categorical_crossentropy",
+  "checkpoint_monitor": "val_loss",
+  "checkpoint_mode": "min",
+  "preprocessing": "ConvNeXt internal Normalization; generator pixels [0,255]",
+  "augmentation": {
+    "rotation_range": 90,
+    "horizontal_flip": true,
+    "vertical_flip": true,
+    "zoom_range": 0.2,
+    "shear_range": 10,
+    "fill_mode": "nearest"
+  },
+  "augmentation_source": "authors public src/helper_models.py executable implementation",
+  "paper_text_difference": "paper states rotations up to 180 degrees; public code uses 90",
+  "augmentation_selection_basis": "pre-registered from authors public code; not selected from final-test error audit",
+  "frozen_stage": {
+    "learning_rate": 0.0001,
+    "max_epochs": 200,
+    "early_stopping_patience": 50,
+    "lr_scheduler": null
+  },
+  "finetune_stage": {
+    "learning_rate": 1e-06,
+    "max_epochs": 400,
+    "early_stopping_patience": 80,
+    "reduce_lr": {
+      "factor": 0.2,
+      "patience": 20,
+      "min_delta": 0.0001,
+      "min_lr": 1e-08
+    },
+    "scope": "full recursive unfreeze including LayerNorm"
+  },
+  "manifest_sha256": "84ca050319a314f1fbf532f553c1a557763b73a09b2e0f0692d2d6c8182706ad",
+  "final_test_policy": "no generator or pixel read until best fine-tuned checkpoint has been fixed",
+  "protocol_status": "optimized ConvNeXt extension using authors public-code augmentation"
+}

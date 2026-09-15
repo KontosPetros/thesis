@@ -1,0 +1,9 @@
+{
+  "best_epoch": 168,
+  "best_val_loss": 0.19757752120494843,
+  "best_val_accuracy": 0.9520624279975891,
+  "best_val_top2_accuracy": 0.9765886068344116,
+  "epochs_completed": 200,
+  "stopped_by_global_time_limit": false,
+  "checkpoint_path": "/kaggle/working/convnextbase_zoolake_final_public_aug_correct_split_seed12345/best_frozen_model.keras"
+}

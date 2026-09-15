@@ -1,0 +1,11 @@
+{
+  "method": "stratified within-class percentile bootstrap",
+  "resamples": 2000,
+  "seed": 12345,
+  "point_estimate": 0.9114783608347855,
+  "ci_level": 0.95,
+  "ci_lower": 0.8813256098641712,
+  "ci_upper": 0.931345314968921,
+  "bootstrap_standard_deviation": 0.013260613160684769,
+  "scope_note": "This interval captures within-split resampling uncertainty only; it does not estimate split-to-split variance."
+}

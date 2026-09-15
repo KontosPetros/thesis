@@ -1,0 +1,29 @@
+{
+  "run_name": "custom_cnn_clean_split_lanczos_seed12345",
+  "model": "Custom CNN",
+  "training_type": "from scratch",
+  "seed": 12345,
+  "image_size": [
+    128,
+    128
+  ],
+  "batch_size": 32,
+  "classes": 35,
+  "train_samples": 12558,
+  "validation_samples": 2691,
+  "test_samples": 2691,
+  "learning_rate": 0.0001,
+  "maximum_epochs": 200,
+  "early_stopping_patience": 30,
+  "checkpoint_monitor": "val_loss",
+  "loss": "categorical_crossentropy",
+  "sampling": "natural",
+  "class_weights": null,
+  "augmentation": {
+    "rotation_range": 180,
+    "horizontal_flip": true,
+    "vertical_flip": true,
+    "zoom_range": 0.2,
+    "shear_range": 10
+  }
+}

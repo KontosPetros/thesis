@@ -1,0 +1,5 @@
+{
+  "best_finetune_epoch": 400,
+  "best_global_epoch": 600,
+  "best_validation_loss": 0.210160806775093
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_path": "/kaggle/input/datasets/tsikaripunks/zoolake-paper-split-deduplicated-semantic/zoolake_paper_split_deduplicated_semantic.csv",
+  "dataset_root": "/kaggle/input/datasets/tsikaripunks/zoolake-full/zooplankton_0p5x",
+  "manifest_sha256": "84ca050319a314f1fbf532f553c1a557763b73a09b2e0f0692d2d6c8182706ad",
+  "split_counts": {
+    "train": 12558,
+    "validation": 2691,
+    "test": 2691
+  },
+  "unique_filenames": 17940,
+  "cross_split_overlap_counts": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "holdout_overlap_retained_in_final_test": "SPC-EAWAG-0P5X-1589537326874154-10282734293288-005169-028-1252-974-40-64.jpeg",
+  "semantic_mapping": {
+    "authors_valX": "final_test",
+    "authors_testX": "validation"
+  }
+}

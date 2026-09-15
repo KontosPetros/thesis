@@ -1,0 +1,13 @@
+{
+  "model": "Custom CNN",
+  "split": "test",
+  "samples": 2691,
+  "loss": 0.24189795553684235,
+  "accuracy": 0.9279078409513192,
+  "macro_precision": 0.793683316099097,
+  "macro_recall": 0.7310438638996472,
+  "macro_f1": 0.7438915410366298,
+  "top2_accuracy": 0.9762170196952805,
+  "best_epoch": 200,
+  "seed": 12345
+}

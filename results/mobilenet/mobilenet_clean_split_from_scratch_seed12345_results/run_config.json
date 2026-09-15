@@ -1,0 +1,35 @@
+{
+    "run_name": "mobilenet_clean_split_from_scratch_seed12345",
+    "model": "MobileNet V1",
+    "initialization": "from_scratch",
+    "pretrained_weights": null,
+    "seed": 12345,
+    "image_size": [
+        128,
+        128
+    ],
+    "batch_size": 32,
+    "number_of_classes": 35,
+    "training_images": 12558,
+    "validation_images": 2691,
+    "test_images": 2691,
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "maximum_epochs": 200,
+    "early_stopping_patience": 30,
+    "checkpoint_monitor": "val_loss",
+    "reduce_lr_on_plateau": false,
+    "preprocessing": "rescale=1/255",
+    "interpolation": "lanczos",
+    "augmentation": {
+        "rotation_range": 180,
+        "horizontal_flip": true,
+        "vertical_flip": true,
+        "zoom_range": 0.2,
+        "shear_range": 10
+    },
+    "completed_epochs": 150,
+    "best_epoch": 120,
+    "training_seconds": 14086.987929582596,
+    "total_parameters": 3777763
+}

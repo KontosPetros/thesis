@@ -1,0 +1,92 @@
+{
+  "run_name": "convnextbase_zoolake_final_public_aug_correct_split_seed12345",
+  "frozen_best_checkpoint": {
+    "best_epoch": 168,
+    "best_val_loss": 0.19757752120494843,
+    "best_val_accuracy": 0.9520624279975891,
+    "best_val_top2_accuracy": 0.9765886068344116,
+    "epochs_completed": 200,
+    "stopped_by_global_time_limit": false,
+    "checkpoint_path": "/kaggle/working/convnextbase_zoolake_final_public_aug_correct_split_seed12345/best_frozen_model.keras"
+  },
+  "frozen_validation_metrics": {
+    "run_name": "convnextbase_zoolake_final_public_aug_correct_split_seed12345",
+    "stage": "frozen",
+    "split": "validation",
+    "samples": 2691,
+    "loss": 0.19757753610610962,
+    "accuracy": 0.9520624303232998,
+    "macro_precision": 0.8738543671934329,
+    "macro_recall": 0.856747919191308,
+    "macro_f1": 0.8551015085267218,
+    "macro_f1_no_junk": 0.9028048607050068,
+    "macro_f1_ge200": 0.9384316292908118,
+    "macro_f1_ge200_no_junk": 0.9587099900627717,
+    "top2_accuracy": 0.9765886287625418,
+    "seed": 12345,
+    "manifest_sha256": "84ca050319a314f1fbf532f553c1a557763b73a09b2e0f0692d2d6c8182706ad"
+  },
+  "finetuned_best_checkpoint": {
+    "best_epoch": 14,
+    "best_val_loss": 0.18941015005111694,
+    "best_val_accuracy": 0.9606094360351562,
+    "best_val_top2_accuracy": 0.9810479283332825,
+    "learning_rate_at_best_epoch": 9.999999974752427e-07,
+    "epochs_completed": 94,
+    "stopped_by_global_time_limit": false,
+    "total_pipeline_hours_at_end": 9.288152441850833,
+    "checkpoint_path": "/kaggle/working/convnextbase_zoolake_final_public_aug_correct_split_seed12345/best_finetuned_model.keras"
+  },
+  "finetuned_validation_metrics": {
+    "run_name": "convnextbase_zoolake_final_public_aug_correct_split_seed12345",
+    "stage": "full_finetune",
+    "split": "validation",
+    "samples": 2691,
+    "loss": 0.18941015005111694,
+    "accuracy": 0.9606094388703085,
+    "macro_precision": 0.8883689688302409,
+    "macro_recall": 0.8692945449887441,
+    "macro_f1": 0.8682106578665963,
+    "macro_f1_no_junk": 0.9112068151443565,
+    "macro_f1_ge200": 0.9518013548334205,
+    "macro_f1_ge200_no_junk": 0.9700321147039778,
+    "top2_accuracy": 0.9810479375696767,
+    "seed": 12345,
+    "manifest_sha256": "84ca050319a314f1fbf532f553c1a557763b73a09b2e0f0692d2d6c8182706ad"
+  },
+  "finetuned_test_metrics": {
+    "run_name": "convnextbase_zoolake_final_public_aug_correct_split_seed12345",
+    "stage": "full_finetune",
+    "split": "test",
+    "samples": 2691,
+    "loss": 0.13343116641044617,
+    "accuracy": 0.9654403567447045,
+    "macro_precision": 0.929960988952603,
+    "macro_recall": 0.902408691614323,
+    "macro_f1": 0.9114783608347855,
+    "macro_f1_no_junk": 0.9486586660879959,
+    "macro_f1_ge200": 0.9590832911537766,
+    "macro_f1_ge200_no_junk": 0.9735870771153118,
+    "top2_accuracy": 0.9899665551839465,
+    "seed": 12345,
+    "manifest_sha256": "84ca050319a314f1fbf532f553c1a557763b73a09b2e0f0692d2d6c8182706ad"
+  },
+  "test_macro_f1_bootstrap": {
+    "method": "stratified within-class percentile bootstrap",
+    "resamples": 2000,
+    "seed": 12345,
+    "point_estimate": 0.9114783608347855,
+    "ci_level": 0.95,
+    "ci_lower": 0.8813256098641712,
+    "ci_upper": 0.931345314968921,
+    "bootstrap_standard_deviation": 0.013260613160684769,
+    "scope_note": "This interval captures within-split resampling uncertainty only; it does not estimate split-to-split variance."
+  },
+  "test_access_log": {
+    "test_generator_created_after_checkpoint_selection": true,
+    "test_pixel_prediction_passes": 1,
+    "test_time_augmentation": false,
+    "test_results_used_for_model_selection": false,
+    "evaluated_checkpoint": "/kaggle/working/convnextbase_zoolake_final_public_aug_correct_split_seed12345/best_finetuned_model.keras"
+  }
+}

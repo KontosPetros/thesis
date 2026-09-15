@@ -1,0 +1,2 @@
+model,split,samples,loss,accuracy,macro_precision,macro_recall,macro_f1,top2_accuracy,best_epoch,seed
+Custom CNN,test,2691,0.2132236808538437,0.938312894834634,0.7855834644116426,0.7921683924527402,0.7680043738178599,0.9758454106280193,194,12345
