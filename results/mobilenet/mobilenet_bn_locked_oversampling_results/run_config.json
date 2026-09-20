@@ -1,0 +1,29 @@
+{
+  "run_name": "mobilenet_bn_locked_oversampling_seed12345",
+  "model": "MobileNetV1",
+  "training_stage": "BN-locked fine-tuning",
+  "starting_model": "/kaggle/input/notebooks/petroskontos/mobilenet-v1-frozen-oversampling/mobilenet_frozen_oversampling_seed12345/best_frozen_model.keras",
+  "oversampling": true,
+  "rare_classes": [
+    "chaoborus",
+    "copepod_skins",
+    "daphnia_skins",
+    "diatom_chain",
+    "hydra"
+  ],
+  "oversampling_target": 100,
+  "original_training_images": 12558,
+  "oversampled_training_images": 12961,
+  "validation_images": 2691,
+  "test_images": 2691,
+  "seed": 12345,
+  "image_size": [
+    128,
+    128
+  ],
+  "batch_size": 32,
+  "learning_rate": 1e-07,
+  "maximum_epochs": 400,
+  "patience": 200,
+  "trainable_bn_layers": 0
+}

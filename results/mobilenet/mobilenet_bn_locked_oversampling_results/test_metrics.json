@@ -1,0 +1,13 @@
+{
+  "model": "MobileNetV1 BN-locked with oversampling",
+  "split": "test",
+  "samples": 2691,
+  "loss": 0.1908891797065735,
+  "accuracy": 0.9472315124489038,
+  "macro_precision": 0.8446462577583682,
+  "macro_recall": 0.8397856547732346,
+  "macro_f1": 0.8330080319652199,
+  "top2_accuracy": 0.9788182973861694,
+  "best_epoch": 336,
+  "seed": 12345
+}

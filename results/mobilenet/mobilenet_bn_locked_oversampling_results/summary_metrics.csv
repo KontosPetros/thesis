@@ -1,0 +1,2 @@
+model,split,samples,loss,accuracy,macro_precision,macro_recall,macro_f1,top2_accuracy,best_epoch,seed
+MobileNetV1 BN-locked with oversampling,test,2691,0.1908891797065735,0.9472315124489038,0.8446462577583682,0.8397856547732346,0.8330080319652199,0.9788182973861694,336,12345

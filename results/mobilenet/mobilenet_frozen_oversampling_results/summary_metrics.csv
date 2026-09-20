@@ -1,0 +1,2 @@
+model,split,samples,loss,accuracy,macro_precision,macro_recall,macro_f1,top2_accuracy,best_epoch,seed
+MobileNetV1 frozen with oversampling,test,2691,0.22985395789146423,0.9394277220364177,0.8634346547415374,0.8633517858464343,0.8530335488325967,0.9780750870704651,121,12345
